@@ -9,8 +9,8 @@
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
     [b]/config[/b] : Where the config file will be created.[br]
   </Description>
-  <Registry>https://registry.hub.docker.com/u/rix1337/docker-flexget/</Registry>
-  <Repository>rix1337/docker-flexget</Repository>
+  <Registry>https://registry.hub.docker.com/u/vikduf/docker-flexget/</Registry>
+  <Repository>vikduf/docker-flexget</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
