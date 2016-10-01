@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+<Category>Downloaders:</Category>
+  <Name>Unison</Name>
+  <Support>https://lime-technology.com/forum/index.php?topic=43669.0</Support>
+  <Description>
+    Unison
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/vikduf/docker-unison/</Registry>
+  <Repository>vikduf/docker-unison</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>
+  <Data>
+     <Volume>
+      <HostDir>/mnt/cache/appdata/flexget</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume> 
+    <Volume>
+      <HostDir>/etc/localtime</HostDir>
+      <ContainerDir>/etc/localtime</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+  </Data>
+  <Icon>http://i.imgur.com/KXTg4bO.jpg</Icon>
+  <Banner>http://i.imgur.com/Qx23K8K.png</Banner>
+</Container>
