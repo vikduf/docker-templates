@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+<Category>Downloaders:</Category>
+  <Name>Unison</Name>
+  <Support>https://lime-technology.com/forum/index.php?topic=43669.0</Support>
+  <Description>
+    Unison
+  </Description>
+  <Registry>https://hub.docker.com/r/servethehome/monero_cpu_minergate/</Registry>
+  <Repository>servethehome/monero_cpu_minergate</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+   <Environment>
+    <Variable>
+      <Name>username</Name>
+      <Value>viktor@viktordufour.com</Value>
+    </Variable>
+  </Environment>
+  <Icon>http://files.coinmarketcap.com.s3-website-us-east-1.amazonaws.com/static/img/coins/200x200/monero.png</Icon>
+  <Banner>https://cdn.arstechnica.net/wp-content/uploads/2017/08/monero-on-the-dash-times-com.jpg</Banner>
+</Container>
