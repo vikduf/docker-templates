@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+<Category>Downloaders:</Category>
+  <Name>xmr-stak-cpu</Name>
+  <Support>https://lime-technology.com/forum/index.php?topic=43669.0</Support>
+  <Description>
+    Xmr Stak Cpu
+  </Description>
+  <Registry>https://hub.docker.com/r/minecoins/xmr-stak-cpu/</Registry>
+  <Repository>minecoins/xmr-stak-cpu</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>
+  <Data>
+     <Volume>
+      <HostDir>/mnt/cache/appdata/monero/config.txt</HostDir>
+      <ContainerDir>/usr/local/etc/config.txt</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Icon>http://i.imgur.com/KXTg4bO.jpg</Icon>
+  <Banner>http://i.imgur.com/Qx23K8K.png</Banner>
+</Container>
