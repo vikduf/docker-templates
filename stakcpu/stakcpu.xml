@@ -29,8 +29,8 @@
   </Environment>
   <Data>
      <Volume>
-      <HostDir>/mnt/cache/appdata/monero/config.txt</HostDir>
-      <ContainerDir>/usr/local/etc/config.txt</ContainerDir>
+      <HostDir>/mnt/cache/appdata/monero</HostDir>
+      <ContainerDir>/usr/local/etc</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
