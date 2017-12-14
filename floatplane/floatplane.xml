@@ -29,7 +29,7 @@
   </Environment>
   <Data>
      <Volume>
-      <HostDir>/mnt/cache/appdata/floatplane</HostDir>
+      <HostDir>/mnt/user/floatplane</HostDir>
       <ContainerDir>/node</ContainerDir>
       <Mode>rw</Mode>
     </Volume> 
